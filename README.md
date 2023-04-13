@@ -17,3 +17,10 @@ Several steps were taken to prepare the data:
 - Additional columns were created from derived data: `month`, `day_of_year`, and `precipitation_rolling` (a rolling average of precipitation measurements for each city)
 
 The prepared data as well as the notebook used for data preparation are available in this repository as `clean_seattle_stl_weather.csv` and `seattle_weather_data_preparation.ipynb`.
+
+## Data Analysis
+
+The data analysis was done in the `seattle_weather_data_analysis.ipynb` notebook, which is available in this repository. Several questions were explored:
+-  Which city, by month, has the most overall rain? (sum, daily average, either way)
+-  Which city, by month, has the most days with no rain?
+-  Which city, by month, has the "rainiest" rainy days?
