@@ -6,7 +6,9 @@ In this project, data science will be used to understand whether it rains more i
 
 Two data sets, `seattle_rain.csv` and `stl_rain.csv`, will be used to look at the daily precipitation in each city from 2017 to 2022. They are from NOAA's [Climate Data Online Search](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND) tool.
 
-## Data Preparation
+## Data Processing
+
+### Preparation
 
 Several steps were taken to prepare the data:
 - The date columns were converted to pandas datetime objects.
@@ -18,9 +20,17 @@ Several steps were taken to prepare the data:
 
 The prepared data as well as the notebook used for data preparation are available in this repository as `clean_seattle_stl_weather.csv` and `seattle_weather_data_preparation.ipynb`.
 
-## Data Analysis
+### Analysis
 
 The data analysis was done in the `seattle_weather_data_analysis.ipynb` notebook, which is available in this repository. Several questions were explored:
 -  Which city, by month, has the most overall rain? (sum, daily average, either way)
 -  Which city, by month, has the most days with no rain?
 -  Which city, by month, has the "rainiest" rainy days?
+
+## Authors
+
+- Charlie Robinson ([LinkedIn](https://www.linkedin.com/in/-charlierobinson/))
+
+## License
+
+This project is licensed under the terms of the MIT License.
