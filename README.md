@@ -27,6 +27,8 @@ The data analysis was done in the `seattle_weather_data_analysis.ipynb` notebook
 -  Which city, by month, has the most days with no rain?
 -  Which city, by month, has the "rainiest" rainy days?
 
+The results of the analysis are available in this repository as `communicated_results.pdf`.
+
 ## Authors
 
 - Charlie Robinson ([LinkedIn](https://www.linkedin.com/in/-charlierobinson/))
